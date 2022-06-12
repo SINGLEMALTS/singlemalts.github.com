@@ -2,7 +2,7 @@
 title: "Blog"
 layout: archive
 category-name: Blog
-permalink: categories/blog
+permalink: categories/Blog
 author_profile: true
 sidebar_main: true
 
