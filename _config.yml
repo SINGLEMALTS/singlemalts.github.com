@@ -27,6 +27,7 @@ repository               : "SINGLEMALTS/singlemalts.github.com" # GitHub usernam
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+futrue                   : true
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200 # 포스트 읽는데 걸리는 시간 계산 기준(분당 글자)
 comments:
@@ -292,3 +293,4 @@ defaults:
       related: true
       mathjax: true
       sidebar_main: true
+      
