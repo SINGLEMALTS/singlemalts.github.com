@@ -23,6 +23,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
+            <span class="nav__sub-title">Dev</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Csharp" %}
+                <li><a href="/categories/Csharp" class="">C#({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
   </ul>
 </nav>
